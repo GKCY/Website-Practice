@@ -1,0 +1,145 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.navbar {
+    background-color: black;
+    height: 100px;
+}
+
+.clubfit_logo {
+    width: 75px;
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 12.5px;
+    margin-bottom: 12.5px;
+}
+
+.nav{
+    list-style-type: none;
+    left-margin: 0;
+    left-padding: 0;
+}
+
+.navbar-brand {
+    float: left;
+}
+
+.navbar-nav{
+    margin: 0px;
+    float: left;
+    padding-left: 0;
+}
+
+.navbar-nav > li {
+    float: left;
+    line-height: 100px;
+}
+
+.navbar-nav > li > a {
+    font-family: "Corporate S Bold";
+    font-size: 14px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding-right: 32px;
+}
+
+.clubalerts_gray {
+    width: 50px;
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 32px;
+    margin-left: 10px;
+}
+
+.rightfloat {
+    float: right;
+}
+
+.fa-search{
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+i{
+    margin-top: 41px;
+    margin-bottom: 41px;
+}
+
+
+.navbar > div > a {
+    color: white;
+    text-decoration: none;
+    font-family: "Corporate S Bold";
+    line-height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#special{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.item{
+    height: 18px;
+    width: 2px;
+    background-color: white;
+    display: table-cell;
+}
+
+@font-face {
+    font-family: "Corporate S Regular";
+    src: url('./font/CorporateS-Regular.ttf');
+}
+@font-face {
+    font-family: "Corporate S Bold";
+    src: url('./font/CorporateS-Bold.ttf');
+}
+.heading_1{
+    font-family: Corporate S Regular;
+    font-size: 72px;
+    line-height: 82px;
+}
+.heading_2{
+    font-family: Corporate S Regular;
+    font-size: 60px;
+    line-height: 68px;
+}
+.heading_3{
+    font-family: Corporate S Regular;
+    font-size: 42px;
+    line-height: 48px;
+}
+.heading_4{
+    font-family: Corporate S Regular;
+    font-size: 36px;
+    line-height: 42px;
+}
+.heading_5{
+    font-family: Corporate S Regular;
+    font-size: 24px;
+    line-height: 30px;
+}
+.heading_6{
+    font-family: Corporate S Regular;
+    font-size: 18px;
+    line-height: 24px;
+}
+
