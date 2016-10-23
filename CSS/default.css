@@ -54,7 +54,7 @@ body {
     color: white;
     display: block;
     text-decoration: none;
-    padding-right: 32px;
+    margin-right: 32px;
 }
 
 .clubalerts_gray {
@@ -77,8 +77,8 @@ body {
 }
 
 i{
-    margin-top: 41px;
-    margin-bottom: 41px;
+    margin-top: 42px;
+    margin-bottom: 42px;
 }
 
 
@@ -102,6 +102,63 @@ i{
     width: 2px;
     background-color: white;
     display: table-cell;
+}
+
+.button_border:hover:after {
+    content: "";
+    background-color: white;
+    width: 100%;
+    height: 7px;
+    display: block;
+    transform: translate(0,-7px);
+}
+
+.cover_background {
+    background: url("font/FPOhomepageslider1.jpg");
+    -moz-background-size: 100% 800px;
+    background-size: 100% 800px;
+    height: 800px;
+    background-repeat: no-repeat;
+}
+
+.layer{
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    height: 100%;
+}
+.clubfit_logo_cover{
+    width: 200px;
+}
+
+.LOGO {
+    width: 200px;
+    height: 200px;
+    padding-top: 235px;
+    margin:0 auto;
+}
+
+.guide_words{
+    color: white;
+    text-align: center;
+}
+
+.white_button{
+    width: 250px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: Corporate S Regular;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border: 0px;
+}
+
+.middle {
+    text-align: center;
+    margin:0 auto;
+}
+
+.white_button:hover {
+    background-color: rgba(255, 255, 255, 1);
 }
 
 @font-face {
