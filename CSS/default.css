@@ -161,6 +161,83 @@ i{
     background-color: rgba(255, 255, 255, 1);
 }
 
+.white_button_1:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.cover_following{
+    background-color: black;
+    width: 100%;
+}
+
+.cover_following > p {
+    color: white;
+    width: 85%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.first {
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.second {
+    padding-bottom: 60px;
+}
+
+.left_img {
+    background: url("font/FPO_briarcliff.jpg");
+    background-color: #00ace6;
+    background-repeat: repeat-x;
+    background-blend-mode: multiply;
+    height: 668px;
+    width: 50%;
+    float: left;
+}
+
+.right_img {
+    background: url("font/FPO_jefferson.jpg");
+    background-color: #F48E1F;
+    background-blend-mode: multiply;
+    background-repeat: repeat-x;
+    height: 667px;
+    width: 50%;
+    float: left;
+}
+
+.clubfit_logo_one {
+    width: 100px;
+    margin-top: 120px;
+    margin-bottom: 17px;
+}
+
+.four {
+    color: white;
+    padding-bottom: 22px;
+}
+
+.white_button_1{
+    width: 250px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-family: Corporate S Regular;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border: 0px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.left_img > button > p {
+    color: #00ace6;
+}
+
+.right_img > button > p {
+    color: #F48E1F;
+}
 @font-face {
     font-family: "Corporate S Regular";
     src: url('./font/CorporateS-Regular.ttf');
