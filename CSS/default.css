@@ -57,6 +57,41 @@ body {
     margin-right: 32px;
 }
 
+form {
+    width: 100%;
+    height: 50px;
+    background: #E5E1D1;
+    display: none;
+}
+
+.search_bar {
+    height: 35px;
+    width: calc(99.9% - 64px);
+    position: absolute;
+    padding-top: 7.5px;
+    padding-left: 32px;
+}
+
+.search_1 {
+    border: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.search_button {
+    height: 35px;
+    width: 70px;
+    border: 0;
+    background-color: white;
+    font-family: Corporate S Regular;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: calc(99.9% - 70px);
+    text-align: right;
+    display: block;
+}
 .clubalerts_gray {
     width: 50px;
     float: right;
